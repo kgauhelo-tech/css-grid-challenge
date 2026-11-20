@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  --violet: #733fc8;
+  --violet-light: #a775f2;
+  --slate: #49556d;
+  --navy: #191f2d;
+  --white: #ffffff;
+  --page-bg: #f5f5f5;
+  --text-slate: #4e5460;
+  --text-gray: #7c7d82;
+
+  --padding-space: 32px;
+
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+body {
+  background-color: var(--page-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  max-width: 1300px;
+  width: 90%;
+  margin: auto;
+}
+
+.grid-container {
+  display: grid;
+  gap: 32px;
+}
+
+.left-container {
+  display: grid;
+  gap: 32px;
+}
+
+.row-1,
+.row-2 {
+  display: grid;
+  gap: 32px;
+}
+
+.white {
+  color: var(--white);
+}
+
+.rounded {
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 16px 0;
+}
+
+.details {
+  font-size: 16px;
+  color: var(--text-gray);
+}
+
+.right-container div {
+  border-radius: 8px;
+}
+
+.kira {
+  background-color: #fff;
+  padding: var(--padding-space);
+}
+
+.kira .user-row {
+  color: var(--text-slate);
+}
+
+.kira-title {
+}
+
+.patrick {
+  background-color: var(--navy);
+  padding: var(--padding-space);
+}
+
+.jeanette {
+  background-color: #fff;
+  padding: var(--padding-space);
+}
+
+.daniel {
+  background-color: var(--violet);
+  padding: var(--padding-space);
+}
+
+.jonathan {
+  background-color: var(--slate);
+  padding: var(--padding-space);
+}
+
+
