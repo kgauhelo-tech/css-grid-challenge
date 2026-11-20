@@ -80,9 +80,6 @@ body {
   color: var(--text-slate);
 }
 
-.kira-title {
-}
-
 .patrick {
   background-color: var(--navy);
   padding: var(--padding-space);
@@ -102,5 +99,3 @@ body {
   background-color: var(--slate);
   padding: var(--padding-space);
 }
-
-
