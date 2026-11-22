@@ -14,13 +14,17 @@
   --text-slate: #4e5460;
   --text-gray: #7c7d82;
 
-  --padding-space: 32px;
+  --padding-space: 24px;
 
   font-family: "Barlow Semi Condensed", sans-serif;
 }
 
 body {
   background-color: var(--page-bg);
+
+  @media screen and (min-width: 768px) {
+    height: 100vh;
+  }
 }
 
 .main-container {
@@ -33,7 +37,7 @@ body {
   align-items: center;
 
   @media screen and (min-width: 768px) {
-    height: 100vh;
+    height: 80%;
   }
 }
 
@@ -58,23 +62,20 @@ body {
 }
 
 .grid-container {
+  padding: 16px 0;
   display: grid;
-  gap: 32px;
+  gap: 24px;
 }
 
 .left-container {
   display: grid;
-  gap: 32px;
+  gap: 24px;
 }
 
 .row-1,
 .row-2 {
   display: grid;
-  gap: 32px;
-}
-
-.white {
-  color: var(--white);
+  gap: 24px;
 }
 
 .rounded {
@@ -167,4 +168,25 @@ body {
   .right-container {
     height: 100%;
   }
+}
+
+/* Classes for text colors */
+.white {
+  color: var(--white);
+}
+
+.darker-white {
+  color: var(--page-bg);
+}
+
+.slate-text {
+  color: var(--text-slate);
+}
+
+.gray-text {
+  color: var(--page-bg);
+}
+
+.bold {
+  font-weight: bold;
 }
